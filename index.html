@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+    <script src="https://kit.fontawesome.com/b0f29e9bfe.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="x-icon" href="icon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <a href="roblox.html"><img src="icon2.png"></a>
+    </nav>
+
+    <!-- Previous Button -->
+    <button id="prev-btn">
+        <i class="fas fa-arrow-circle-left"></i>
+    </button>
+
+
+    <!-- Book -->
+    <div id="book" class="book">
+        <!-- Paper 1 -->
+        <div id="p1" class="paper">
+            <div class="front">
+                <div id="f1" class="front-content">
+                    <h1>Level 1</h1>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b1" class="back-content">
+                    <h1>Cat</h1>
+                    <img class="cover-img" src="New folder/cat.png" alt="cat">
+                    <audio src="New folder/pronunciation_en_cat (1).mp3" type="audio/mp3" controls></audio>
+                </div>
+            </div>
+        </div>
+        <!-- Paper 2 -->
+        <div id="p2" class="paper">
+            <div class="front">
+                <div id="f2" class="front-content">
+                    <h1>Mat</h1>
+                    <img class="cover-img" src="New folder/mat.png" alt="mat">
+                    <audio src="New folder/pronunciation_en_mat.mp3" type="audio/mp3" controls></audio>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b2" class="back-content">
+                    <h1>A Cat on a Mat</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Paper 3 -->
+        <div id="p3" class="paper">
+            <div class="front">
+                <div id="f3" class="front-content">
+                    <img class="cover-img" src="New folder/combi.png" alt="combi">
+                    <audio controls autoplay>
+                        <source src="New folder/pronunciation_en_a_cat_on_a_mat (mp3cut.net).ogg" type="audio/ogg">
+                        <source src="New folder/pronunciation_en_a_cat_on_a_mat (mp3cut.net).mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b3" class="back-content">
+                    <h1>Let's go to Level 2</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Next Button -->
+    <button id="next-btn">
+        <i class="fas fa-arrow-circle-right"></i>
+    </button>
+
+    <button class="buttonnext"><a href="level2.html"><span>Next </span></a></button>
+</body>
+</html>
