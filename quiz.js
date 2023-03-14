@@ -63,12 +63,12 @@ var questions = [{
 	"option4": "WET",
 	"answer": "2"
 }, {
-	"question": "",
-	"option1": "",
-	"option2": "",
-	"option3": "",
-	"option4": "",
-	"answer": "3"
+	"question": "Having a high temperature because of? (pagkakaroon ng mataas na temperatura dahil sa?)",
+	"option1": "VAN",
+	"option2": "SUN",
+	"option3": "EARTH",
+	"option4": "WET",
+	"answer": "2"
 }];
 
 //javaScript for functionality
