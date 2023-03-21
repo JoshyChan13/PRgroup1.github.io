@@ -48,27 +48,6 @@ var questions = [{
 	"option3": "WENT",
 	"option4": "GO",
 	"answer": "2"
-}, {
-	"question": "",
-	"option1": "",
-	"option2": "",
-	"option3": "",
-	"option4": "",
-	"answer": ""
-}, {
-	"question": "",
-	"option1": "",
-	"option2": "",
-	"option3": "",
-	"option4": "",
-	"answer": ""
-}, {
-	"question": "",
-	"option1": "",
-	"option2": "",
-	"option3": "",
-	"option4": "",
-	"answer": ""
 }];
 
 //javaScript for functionality
